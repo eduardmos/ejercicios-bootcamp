@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+ 
+  
+}
+
+.header{
+    text-align: center;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+}
+
+.contenedor{
+          display: flex ;
+          flex-direction: row;
+          flex-wrap: wrap;
+          padding: 5px;
+        
+          justify-content: space-evenly ;
+      }
+
+      .hijo{
+        padding: 5px;
+        
+      }
+
+      .hr {
+        width: 200px;
+        align-items: center;
+        color: bisque;
+      }
+h2 {
+    text-align: center;
+    font-size: small;
+}
+
+.footer{
+display: block;
+
+}
